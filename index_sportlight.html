@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/fav2.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Spotlight on Sports</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+			background-image:url("images/std1.jpg");
+        }
+		/* logo styling*/
+.logo-container{
+	       position:absolute;
+		   top:0;
+		   right:91%;
+		   z-index:1500;
+		   position:fixed;
+}
+
+.logo{
+		   width:40px;
+		   height:auto;
+		   border-radius:50%;
+}
+        header {
+            background-color: #333;
+            color: white;
+            padding: 0px 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 70px;
+            z-index: 999;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            display: flex;
+            margin-top: 100px;
+            padding: 20px;
+        }
+        .left-column {
+            width:20%;
+            padding: 0px;
+			margin-left:0;
+			background-color:#fff;
+			text-decoration:none;
+        }
+        .main-column {
+            width: 60%;
+            padding: 0px;
+        }
+        .right-column {
+            width:20%;
+            padding: 0;
+			margin-right:0;
+        }
+        .updates {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .links {
+            margin-bottom: 20px;
+			text-decoration:none;
+			display:inline-block;
+			
+        }
+		#h2,p{
+		     color:white;
+		}
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 998;
+        }
+		social-media{
+	display:flex;
+	justify-content:center;
+	gap:25px;
+	padding:10px;
+
+}
+.social-link{
+	text-decoration:none;
+	border-radius:5px;
+	padding:10px 15px;
+	color:white;
+	
+}
+.social-link:hover{background-color:#8DECB4;
+}
+.facebook{background-color:#3b5998;}
+.whatsapp{background-color:green;}
+.tiktok{background-color:black;}
+.youtube{background-color:red;}
+.fa-brands{
+	background-color:white;
+	border-radius:50%;
+	padding:10px;
+	font-size:1em;
+}
+.fa-brands:hover{color:lightgray;
+	
+}
+.gallery-item {
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            overflow: hidden;
+            width: calc(100% - 20px);
+			height:60%;
+        }
+        .gallery-item video {
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<!--logo -->
+<div class="logo-container"><img src="images/d.jpg" class="logo"></div>
+    <header>
+	<marquee>
+        <h1>Spotlight on Sports</h1>
+		</marquee>
+    </header>
+
+    <nav>
+        <a href="index_sportlight.html">Home</a>
+        <a href="about_sportlight.html">About</a>
+        <a href="services_news.html">Services</a>
+        <a href="gallery_updates.html">Gallery</a>
+        <a href="sport_blog.html">Blog</a>
+        <a href="fan_zone.html">Fan Zone</a>
+        <a href="contact_sportlight.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <div class="left-column">
+            <div class="links">
+                <h2>Quick Links</h2>
+                
+				     <a href="Class_work.html">class work</a>
+                     <a href="Assignment_two.html">assignment two</a>
+				     <a href="Assignment_one.html">assignment one</a>
+	
+            </div>
+            <div class="links">
+                <h2>Featured Images</h2>
+                <img src="images/arsy1.jpeg" alt="Featured Sports Event" style="width: 100%; border-radius: 5px;">
+                <img src="images/city.jpg" alt="Featured Player" style="width: 100%; border-radius: 5px; margin-top: 10px;">
+            </div>
+        </div>
+
+        <div class="main-column">
+            <h2 id="h2">Welcome to Spotlight on Sports!</h2>
+            <p id="p">Your ultimate destination for the latest updates, news, and analysis from the world of sports.</p>
+            <p id="p">Join us as we highlight exciting matches, player performances, and all the thrilling moments that sports have to offer.</p>
+			
+			<h2 id="h2">EPL week six matches </h2>
+			<p id="p">welcome to EPL post-matches analysis of week six.</p>
+			<div class="gallery-item">
+                <video controls>
+                    <source src="videos/arsl.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="updates">
+                <h2>Latest Updates</h2>
+                <p>Stay tuned for the latest scores and highlights from around the sports world!</p>
+                <ul>
+                    <li>Arsenal wins the championship unbeaten!</li>
+					<img src="images/epl.jpeg" alt="Featured Sports Event" style="width: 100%; border-radius: 5px;">
+                    <li>Saka breaks the assists record,he is the first player to ever assists in opening 6 games!</li>
+					<img src="images/ars1.jpg" alt="Featured Sports Event" style="width: 100%; border-radius: 5px;">
+                    <li>Upcoming match: Arsenal vs. P.S.G this Wednesday.</li>
+					<img src="images/arsy1.jpeg" alt="Featured Sports Event" style="width: 100%; border-radius: 5px;">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Spotlight.</p>
+	<div class="social-media">
+          <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.whatsapp.com"target="_blank" class="social-link whatsapp">whatsapp</a>
+          <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.facebook.com"target="_blank" class="social-link facebook">facebook</a>
+          <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.youtube.com"target="_blank" class="social-link youtube">youtube</a>
+          <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.tiktok.com"target="_blank" class="social-link tiktok">tiktok</a>
+	</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,261 @@
+
+
+
+.myself{
+   max-width:100%;
+   border:1px solid red;
+   	background-color:white;
+	text-align:center;
+}
+
+img{
+  border-radius:50%;
+  width:250px;
+  height:250px;
+}
+
+h1{
+	font-family:"Lucida Console";
+	font-size:32px;
+	color:navyblue;
+}
+
+h2{
+	text-transform:uppercase;
+	font-style:italic;
+}
+
+h3{
+	font-style:bold;
+}
+.food{
+	max-width:100%;
+	background-color:#FFB0B0;
+	border:1px solid black;
+	margin-top:20px;
+
+
+}
+.hobbies{
+	max-width:100%;
+	background-color:#0066cc;
+	border:1px solid black;
+	margin-top:20px;
+}
+
+.food ul li{
+	list-style-type:upper-alpha;
+	background-color:#FFDEDE;
+	margin:0;
+}
+ol li{
+	list-style-type:lower-roman;
+	background-color:lightblue;
+	margin:1px;
+}
+
+.table table{
+	margin-top:20px;
+	padding:10px;
+	border-collapse:collapse;
+	border:none;
+	
+}
+.table table tr th{
+	border:none;
+}
+.table table tr:nth-child(even){
+	background-color:blue;
+	color:white;
+}
+
+.table table td, th{
+	border:none;
+	width:50%;
+	padding:10px;
+	TEXT-ALIGN:LEFT;
+}
+ .table table tr  th,td{
+	   text-align:left;
+	   padding:10px;
+}
+/* logo styling*/
+.logo-container{
+	       position:absolute;
+		   top:0;
+		   right:91%;
+		   z-index:1500;
+		   position:fixed;
+}
+
+.logo{
+		   width:40px;
+		   height:auto;
+		   border-radius:50%;
+}
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:1000;
+	height:50px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+
+
+
+nav{
+	position:fixed;
+	top:50px;
+	left:0;
+	width:100%;
+	z-index:1000;
+	height:200px;
+	bottom:200px;
+}
+
+nav ol{
+	list-style:none;
+	text-align:center;
+	bottom:100%;
+}
+nav ol li{
+	display:inline-block;
+	margin-right:20px;
+}
+.contents{
+	margin-top:100px;
+}
+.table1 table{
+	border-collapse:collapse;
+	border:none;
+	width:70%;
+	margin-left:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+.table1 table tr th{
+	border:none;
+	background-color:green;
+	color:white;
+	padding:15px;
+	text-align:left;
+}
+.table1 table tr td {
+	padding:15px;
+	border:none;
+	border-bottom:1px solid gray;
+	text-align:left;
+	
+	
+	
+}
+
+.contents{
+	background-color:white;
+}
+/*footer styling*/
+footer {
+    background-color:orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display:inline-block;
+    bottom: 0;
+    width: 100%;
+	
+}
+
+
+/*assignment two styling*/
+
+
+body{
+	background-color:pink;
+
+}
+
+a {
+    text-decoration:none;
+    font-family: Lucida Console, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+    background-color:purple;
+    border-radius: 5px;
+}
+a:link {
+    color: grey;
+}
+a:visited {
+    color: navy blue;
+}
+a:hover {
+    color:lightblue;
+}
+a:active {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: auto;
+}
+
+li {
+    margin: 10px;
+}
+ul.languages{
+    list-style-type: circle;
+}
+
+ol.foods {
+    list-style-type: square;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    height: 5px;
+}
+th {
+    text-align: center;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 10px solid black;
+    padding: 20px;
+	margin-left:20px;
+	margin-top:50px;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 20px solid black;
+	padding: 20px;
+	margin-left:280px;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px solid black;
+	padding: 20px;
+	margin-left:560px;
+}
